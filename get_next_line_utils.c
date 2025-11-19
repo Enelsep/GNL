@@ -6,30 +6,11 @@
 /*   By: epesnel <epesnel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 11:13:11 by epesnel           #+#    #+#             */
-/*   Updated: 2025/11/14 15:44:03 by epesnel          ###   ########.fr       */
+/*   Updated: 2025/11/19 15:47:44 by epesnel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
-void	*ft_memcpy(void *dst, const void *src, size_t n)
-{
-	unsigned char		*ptr_d;
-	const unsigned char	*ptr_s;
-	size_t				i;
-
-	ptr_d = (unsigned char *)dst;
-	ptr_s = (const unsigned char *)src;
-	if (!dst && !src)
-		return (0);
-	i = 0;
-	while (i < n)
-	{
-		(ptr_d[i]) = (ptr_s[i]);
-		i++;
-	}
-	return (dst);
-}
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -89,7 +70,7 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
-static char	*ft_blankstr(size_t size)
+char	*ft_blankstr(size_t size)
 {
 	char	*temp;
 	size_t	i;
