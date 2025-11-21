@@ -6,7 +6,7 @@
 /*   By: epesnel <epesnel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 11:13:11 by epesnel           #+#    #+#             */
-/*   Updated: 2025/11/19 15:47:44 by epesnel          ###   ########.fr       */
+/*   Updated: 2025/11/21 14:25:51 by epesnel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,4 +113,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (blank);
 }
-
